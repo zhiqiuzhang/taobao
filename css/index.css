@@ -1,0 +1,488 @@
+header{
+	width: 100%;
+	height: 37px;
+	position: relative;
+	background: url(../image/t01.png) no-repeat #fe5400;
+	 background-size: 27px 20px;
+	background-position: 4px 9px; 
+}
+header .header-wrap{
+	width: 100%;
+	height: 37px;
+	padding: 6px 0px;
+	padding-left: 37px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+header .header-wrap .search-placeholder{
+	width: 100%;
+	height: 25px;
+	border-radius: 4px;
+	line-height: 25px;
+	background-color: #b52600;
+	text-align: center;
+	position: relative;
+}
+header .header-wrap .search-placeholder span{
+	color: #f0e0d6;
+	width: 1.56rem;
+	height: 0.34rem;
+	font-size: 0.16rem;
+	line-height: 0.34rem;
+	position: absolute;
+	top: -0.06rem;
+	right: 4.4rem;
+	
+}
+section{
+	width: 10rem;
+	/*height: 24rem;*/
+	
+}
+section .sec1{
+	width: 10rem;
+	height: 12rem;
+	background-color: rgb(255,255,255);
+	/*background-color: #D02E2E;*/
+}
+section .sec1 .sec11{
+	width: 10rem;
+	height: 4rem;
+	overflow: hidden;
+	background-color: #26DEC6;
+	position: relative;
+}
+section .sec1 .sec11 ul{
+	width: 30rem;
+	height: 4rem;
+	animation: moved 10s linear 0s infinite;
+}
+section .sec1 .sec11 ul li{
+	float: left;
+	width: 10rem;
+	height: 4rem;
+}
+section .sec1 .sec11 ul li img{
+	width: 10rem;
+	height: 4rem;
+}
+@keyframes moved{
+	form{
+		margin-left: 0rem;
+
+	}
+	to{
+		margin-left: -20rem;
+	}
+}
+section .sec1 .sec11 .abs{
+	width: 3.8rem;
+	height: 0.6rem;
+	padding-top: 0.2rem;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0.1rem;
+	bottom: 0.1rem;
+}
+section .sec1 .sec11 .abs span{
+	display: block;
+    width: 0.15rem;
+	height: 0.15rem;
+	border: 0.02rem solid #959090;
+	float: left;
+	border-radius: 0.2rem;
+	background-color: #C8C4C4;
+	margin-left: 0.1rem;
+}
+section .sec1 .sec11 .abs span:nth-child(3){
+	background-color: #EF3636;
+}
+section .sec1 .sec11 .abs span:hover{
+	background-color: #EF3636;
+	cursor: pointer;
+}
+section .sec1 .sec12{
+	width: 10rem;
+	height: 6rem;
+	/*background-color: #35AAA2;*/
+}
+section .sec1 .sec12 .sec12top{
+	width: 10rem;
+	height: 3rem;
+	/*background-color: #4213D6;*/
+
+}
+section .sec1 .sec12 .sec12top .sec12top1{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12top .sec12top1 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t4.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12top .sec12top1 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12top .sec12top2{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12top .sec12top2 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t10.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12top .sec12top2 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12top .sec12top3{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12top .sec12top3 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t9.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12top .sec12top3 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12top .sec12top4{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12top .sec12top4 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t9.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12top .sec12top4 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12top .sec12top5{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12top .sec12top5 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t3.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12top .sec12top5 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+
+section .sec1 .sec12 .sec12bottom{
+	width: 10rem;
+	height: 3rem;
+	/*background-color: #4213D6;*/
+
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom1{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom1 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t5.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom1 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom2{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom2 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t7.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom2 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom3{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom3 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t2.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom3 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom4{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom4 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t6.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom4 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom5{
+	width: 2rem;
+	height: 3rem;
+	float: left;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom5 .d1{
+	width: 2rem;
+	height: 2.58rem;
+	background: url(../image/t1.png) no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+section .sec1 .sec12 .sec12bottom .sec12bottom5 .d2{
+	width: 2rem;
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgb(102,102,102);
+	font-size: 0.24rem;
+}
+section .sec1 .sec13{
+	width: 10rem;
+	height: 1.38rem;
+	border-top: 0.02rem solid #D5C0C0;
+	margin-top: 0.6rem;
+}
+section .sec1 .sec13 .sec13left{
+	width: 2rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	float: left;
+	margin-left: 0.4rem;
+	margin-top: 0.18rem;
+	position: relative;
+}
+section .sec1 .sec13 .sec13left:after{
+	content: "";
+	width: 0.02rem;
+	height: 1rem;
+	background-color: #D5C0C0;
+	position: absolute;
+	right: -0.3rem;
+	top: 0px;
+}
+section .sec1 .sec13 .sec13left img{
+	width: 2rem;
+	line-height: 1.2rem;
+}
+section .sec1 .sec13 .sec13right{
+	width: 7.6rem;
+	height: 1.38rem;
+	line-height: 1.38rem;
+	float: right;
+	padding-left: 0.8rem;
+	/*padding-bottom: 0.5rem;*/
+	/*padding-top: 25px;*/
+	box-sizing: border-box;
+}
+section .sec1 .sec13 .sec13right span{
+	display: inline-block;
+	color: rgb(53,53,53);
+	/*margin-bottom: 0.5rem;*/
+	/*line-height: 60px;*/
+}
+section .sec1 .sec13 .sec13right .s1{
+	width: 0.6rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color: #F54545;
+	font-size: 0.24rem;
+	border: 0.02rem solid gray;
+	border-radius: 0.08rem;
+	
+	margin-right: 0.5rem;
+	
+}
+section .sec1 .sec13 .sec13right .s2{
+	width: 5rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	line-height: 0.6rem;
+}
+
+section .sec2{
+	width: 10rem;
+	height: 6rem;
+	background-color: rgb(255,255,255);
+	margin-top: 0.2rem;
+}
+section .sec2 .sec2left{
+	width: 4.60rem;
+	height: 6rem;
+	border-right: 0.01rem solid #D5C0C0;
+	float: left;
+}
+section .sec2 .sec2left img{
+	width: 4.60rem;
+	height: 6rem;
+
+}
+section .sec2 .sec2right{
+	width: 5.38rem;
+	height: 6rem;
+	float: right;
+}
+section .sec2 .sec2right .sec2righttop{
+	width: 5.38rem;
+	height: 2.98rem;
+	border-bottom: 0.02rem solid #D5C0C0;
+}
+section .sec2 .sec2right .sec2righttop img{
+	width: 2.69rem;
+	height: 2.98rem;
+}
+section .sec2 .sec2right .sec2rightbottom{
+	width: 5.38rem;
+	height: 3rem;
+}
+section .sec2 .sec2right .sec2rightbottom img{
+	width: 2.68rem;
+	height: 3rem;
+}
+section .sec2 .sec2right .sec2rightbottom .d1{
+	border-right: 0.01rem solid #D5C0C0;
+	width: 2.68rem;
+	height: 3rem;
+	float: left;
+}
+section .sec2 .sec2right .sec2rightbottom .d2{
+	width: 2.68rem;
+	height: 3rem;
+	float: right;
+}
+footer{
+	width: 100%;
+	height: 44px;
+	background-color: rgb(255,255,255);
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+footer span{
+	display: block;
+	text-align: center;
+
+}
+footer .d .s1{
+	height: 24px;
+	margin-bottom: 3px;
+	
+}
+/* footer .d .icon{
+	width: 15px;
+	height: 15px;
+} */
+footer .d .s2{
+	height: 16px;
+	color: #5d6568;
+	font-size: 16px;
+}
+
+footer .d1{
+	width: 20%;
+	height: 44px;
+	float: left;
+}
+footer .d2{
+	width: 20%;
+	height: 44px;
+	float: left;
+}
+footer .d3{
+	width: 20%;
+	height: 44px;
+	float: left;
+}
+footer .d4{
+	width: 20%;
+	height: 44px;
+	float: left;
+}
+footer .d5{
+	width: 20%;
+	height: 44px;
+	float: left;
+}
